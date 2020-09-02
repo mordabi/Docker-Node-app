@@ -4,6 +4,6 @@ const { urlencoded } = require('express');
 
 module.exports =(app)=>{
     app.use(express.json());
-    app.use(bodyParse.json());
+    app.use(bodyParser.json());
     app.use(urlencoded({extended:false}));
 }
