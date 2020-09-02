@@ -1,0 +1,24 @@
+{
+  "name": "docker-node-app",
+  "version": "1.0.0",
+  "description": "node app with docker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mordabi/Docker-Node-app.git"
+  },
+  "author": "Mor Daby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mordabi/Docker-Node-app/issues"
+  },
+  "homepage": "https://github.com/mordabi/Docker-Node-app#readme"
+}
